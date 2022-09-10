@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -23,4 +27,34 @@ a {
     color: white;
     background: black;
   }
+}
+
+.bg-salon {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) ,url("https://cdn.pixabay.com/photo/2020/03/24/04/02/spa-4962688_960_720.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.initial-gradient {
+  background: linear-gradient(90deg,rgba(36, 29, 11, 0.171), rgba(228, 203, 203, 0.5));
+  height: 30%;
+  width: 40%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
+  filter: blur(900px);
+}
+
+.second-gradient {
+  background: rgba(255, 255, 255, 0.6);
+  filter: blur(750px);
+  height: 40%;
+  width: 80%;
+  position: absolute;
+  left: 0;
+  top: 5%;
+  /* bottom: 40; */
+  z-index: 3;
 }
