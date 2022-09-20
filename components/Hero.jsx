@@ -5,7 +5,7 @@ import Link from 'next/link'
 const Hero = () => {
   return (
     <section className='bg-salon w-full'>
-        <div className='flex pt-[4rem] flex-col text-center lg:text-left lg:items-start items-center justify-center  min-h-screen ml-16'>
+        <div className='flex pt-[4rem] flex-col text-center lg:text-left lg:items-start items-center justify-center  min-h-screen lg:ml-16 lg:ml-0'>
             <div className='space-y-4'>
                 <div className=''>
                     <h1 className='text-[3rem] text-white max-w-sm font-bold'>A Smooth Salon Experience in Your Town</h1>
