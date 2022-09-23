@@ -4,7 +4,7 @@ import { FaBars, FaSearch, FaShoppingCart} from 'react-icons/fa'
 
 const NavbarLanding = () => {
   return (
-    <header className='fixed flex justify-between w-full pt-4 text-gray-600'>
+    <header className='fixed flex justify-between w-full pt-4 text-gray-300'>
       <div className="lg:ml-16 ml-2">
         <h1>Mombasa Spa</h1>
       </div>
