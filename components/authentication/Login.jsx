@@ -18,7 +18,7 @@ const Login = () => {
     }
 
   return (
-    <section className='min-h-screen flex flex-col text-center items-center pt-[20%] space-y-4 mr-16 ml-16 lg:flex-row lg:space-x-56'>
+    <section className='min-h-screen flex flex-col text-center items-center pt-[20%] lg:pt-0 space-y-4 mr-16 ml-16 lg:flex-row lg:space-x-56'>
         <div>
             <div>
                 <span className='uppercase font-bold'>MS</span>
