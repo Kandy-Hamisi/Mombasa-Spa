@@ -19,7 +19,7 @@ const NavbarLanding = () => {
             <Link href="/">Shop</Link>
           </li>
           <li>
-            <Link href="/">Product</Link>
+            <Link href="/Products">Product</Link>
           </li>
           <li>
             <Link href="/">Contact</Link>
