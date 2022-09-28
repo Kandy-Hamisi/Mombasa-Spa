@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const FooterLanding = () => {
@@ -61,19 +62,27 @@ const FooterLanding = () => {
 
                   <ul className="mt-6 space-y-4">
                       <li>
-                          <a href="#" title="" className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> About </a>
+                          <Link href="/" >
+                            <span className="flex cursor-pointer text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600">Home</span>
+                          </Link>
                       </li>
 
                       <li>
-                          <a href="#" title="" className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Features </a>
+                      <Link href="/Shop" >
+                            <span className="flex cursor-pointer text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600">Shop</span>
+                          </Link>
                       </li>
 
                       <li>
-                          <a href="#" title="" className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Works </a>
+                      <Link href="/Products" >
+                            <span className="flex cursor-pointer text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600">Products</span>
+                          </Link>
                       </li>
 
                       <li>
-                          <a href="#" title="" className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Career </a>
+                      <Link href="/Contacts" >
+                            <span className="flex cursor-pointer text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600">Contacts</span>
+                          </Link>
                       </li>
                   </ul>
               </div>

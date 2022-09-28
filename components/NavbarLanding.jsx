@@ -6,7 +6,7 @@ const NavbarLanding = () => {
   return (
     <header className='fixed flex justify-between w-full pt-4 text-gray-300'>
       <div className="lg:ml-16 ml-2">
-        <h1>Mombasa Spa</h1>
+        <h1 className='text-2xl font-bold'>Mombasa Spa</h1>
       </div>
 
       {/* navigaton */}
@@ -16,7 +16,7 @@ const NavbarLanding = () => {
             <Link href="/">Home</Link>
           </li>
           <li>
-            <Link href="/">Shop</Link>
+            <Link href="/Shop">Shop</Link>
           </li>
           <li>
             <Link href="/Products">Product</Link>

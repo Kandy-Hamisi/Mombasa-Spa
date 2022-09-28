@@ -5,7 +5,7 @@ import Link from 'next/link'
 const Hero = () => {
   return (
     <section className='bg-salon w-full'>
-        <div className='flex pt-[4rem] flex-col text-center lg:text-left lg:items-start items-center justify-center  min-h-screen lg:ml-16 lg:ml-0'>
+        <div className='flex pt-[4rem] flex-col text-center lg:text-left lg:items-start items-center justify-center  min-h-screen lg:ml-16'>
             <div className='space-y-4'>
                 <div className=''>
                     <h1 className='text-[3rem] text-white max-w-sm font-bold'>A Smooth Salon Experience in Your Town</h1>
@@ -24,9 +24,12 @@ const Hero = () => {
                         </Link>
                     </span>
                     <span>
-                        <button className='rounded-full bg-blue-500 p-4 flex'>
-                            <FaPlay className='text-white align-self-center'/>
-                        </button>
+                        <Link href="/Products">
+                            <button className='rounded-lg bg-blue-500 p-2 flex'>
+                                {/* <FaPlay className='text-white align-self-center'/> */}
+                                View Products
+                            </button>
+                        </Link>
                     </span>
                 </div>
             </div>
